@@ -1,21 +1,16 @@
 {
 	"name": "LongHotkeys",
+	"source": "https://autohotkey.com/boards/viewtopic.php?f=6&t=24145",
 	"author": {
 		"name": "Helgef",
 		"url": "https://autohotkey.com/boards/memberlist.php?mode=viewprofile&u=70632"
 	},
 	"category": "Libraries::Hotkeys",
 	"description": "Enable easy usage of custom multi-key hotkeys, using a familiar syntax, allowing any number of ampersands (&) and keys to be combined into a hotkey.",
-	"homepage": [
+	"links": [
     	{
 	    	"url": "https://autohotkey.com/boards/viewtopic.php?f=6&t=24145",
 	    	"text": "AutoHotKey-Forum"
     	}
-    ],
-    "source": [
-    	{
-    		"url": "https://autohotkey.com/boards/viewtopic.php?f=6&t=24145",
-    		"text": "AutoHotKey-Forum"
-		}
     ]
 }
