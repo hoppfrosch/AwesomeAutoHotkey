@@ -5,7 +5,7 @@
 #include <JSON>
 #include <ObjTree>
 
-class AwesomeJSON{	
+class AwesomeJSONEntry{	
 	; ***********************************************************************************
 	; SubClass
 	; Converts the input data into markdown
@@ -142,7 +142,7 @@ class AwesomeJSON{
 
 	; ***********************************************************************************
 	/*
-		Class: AwesomeJSON
+		Class: AwesomeJSONEntry
 		Class to handle an JSON-File as input for generation of awesomeAHK-list entry
 		
 		Authors:

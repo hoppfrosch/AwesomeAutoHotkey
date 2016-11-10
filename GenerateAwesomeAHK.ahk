@@ -9,10 +9,12 @@ SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance Force
 ;<<<<<<<<  HEADER END  >>>>>>>>>
 
-#include <AwesomeJSON>
+#include <AwesomeJSONEntry>
 #include <ObjTree>
 
 ; To create an ini object,
-aE := new AwesomeJSON( A_ScriptDir "\JSONRepo\LongHotkeys.json", 1)
+aE := new AwesomeJSONEntry( A_ScriptDir "\JSONRepo\LongHotkeys.json", 1)
+
+OutputDebug % "<<<<<<< " aE.md.longtext
 
 WinWaitClose % "ahk_id " ObjTree(aE, "Current JSON")
