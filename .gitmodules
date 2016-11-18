@@ -1,0 +1,9 @@
+[submodule "Yunit"]
+	path = Yunit
+	url = git@github.com:Uberi/Yunit.git
+[submodule "lib/YUnit"]
+	path = lib/YUnit
+	url = https://github.com/Uberi/Yunit.git
+[submodule "Lib/TemplateProcessor"]
+	path = Lib/TemplateProcessor
+	url = git@github.com:hoppfrosch/AHK_TemplateProcessor.git

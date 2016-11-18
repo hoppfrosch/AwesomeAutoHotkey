@@ -7,7 +7,6 @@
 #NoEnv
 SetWorkingDir %A_ScriptDir%  ; Ensures a consistent starting directory.
 #SingleInstance Force
-;<<<<<<<<  HEADER END  >>>>>>>>>
 
 #include <AwesomeJSONEntry>
 #include <ObjTree>
